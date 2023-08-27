@@ -27,7 +27,7 @@
            remote="we"
            revision="13.0" />
        
-  <project path="kernel/xiaomi/beryllium"
+  <project path="kernel/xiaomi/sdm845"
            name="Kernel_sdm845"
            remote="we"
            revision="12.1" />
