@@ -32,6 +32,9 @@
            remote="we"
            revision="12.1" />
 
+  <remove-project 
+           name="OctaviOS-Devices/kernel_xiaomi_vince" />
+  
   <!-- Hardware -->
   <project path="hardware/xiaomi" 
            name="android_hardware_xiaomi" 
