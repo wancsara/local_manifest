@@ -31,9 +31,6 @@
            name="Kernel_sdm845"
            remote="we"
            revision="13.0" />
-
-  <remove-project 
-           name="OctaviOS-Devices/kernel_xiaomi_vince" />
   
   <!-- Hardware -->
   <project path="hardware/xiaomi" 
