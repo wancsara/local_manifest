@@ -26,6 +26,12 @@
            name="Kernel_sdm845"
            remote="we"
            revision="eleven" />
+
+    <!-- Hardware -->
+  <project path="hardware/xiaomi" 
+           name="android_hardware_xiaomi" 
+           remote="ArrowOS-Devices" 
+           revision="arrow-11.0" />
   
 <!--Clang--> 
   <project path="prebuilts/clang/host/linux-x86/azure-clang" 
