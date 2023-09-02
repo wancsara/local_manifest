@@ -37,13 +37,6 @@
   <project path="prebuilts/clang/host/linux-x86/azure-clang" 
            name="azure-clang" 
            remote="clangazure" 
-           revision="main" 
-           clone-depth="1" />
-           
-<!--Toolchain-->
-  <project path="prebuilts/clang/host/linux-x86/trb_clang"
-           name="trb_clang" 
-           remote="trb" 
-           revision="17" clone-depth="1" />
+           revision="main" />
   
 </manifest>
