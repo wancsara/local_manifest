@@ -34,9 +34,8 @@
            revision="arrow-11.0" />
   
 <!--Clang--> 
-  <project path="prebuilts/clang/host/linux-x86/azure-clang" 
-           name="azure-clang" 
-           remote="clangazure" 
-           revision="main" />
+  <project path="prebuilts/clang/host/linux-x86/proton-clang" 
+           name="proton-clang" 
+           remote="kdrag0n"  />
   
 </manifest>
