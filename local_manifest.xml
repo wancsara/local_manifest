@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="we" fetch="https://github.com/Rsyd1997"/>
-  <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />
+ <!-- <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />-->
   <remote name="ArrowOS-Devices" fetch="https://github.com/ArrowOS-Devices"/>
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n"/>
-  <remote name="clangazure" fetch="https://gitlab.com/Panchajanya1999" />
+<!--  <remote name="clangazure" fetch="https://gitlab.com/Panchajanya1999" />-->
+  <remote name="clone-LOS"  fetch="https://github.com/LineageOS"/>
   
 <!--Trees-->
   <project path="device/xiaomi/beryllium"
@@ -27,6 +28,31 @@
            remote="we"
            revision="eleven" />
 
+  <!-- Remove project -->
+<remove-project name="LineageOS/android_build"/>
+<remove-project name="LineageOS/android_frameworks_base"/>
+<remove-project name="LineageOS/android_packages_apps_Settings"/>
+<remove-project name="LineageOS/android_packages_overlays_Lineage"/>
+<remove-project name="LineageOS/android_system_core"/>
+<remove-project name="LineageOS/android_vendor_lineage"/>
+  
+<!-- Project -->
+<project path="build/make" name="android_build" revision="lineage-18.1" remote="clone-LOS" >
+  <copyfile src="core/root.mk" dest="Makefile" />
+  <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
+  <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
+  <linkfile src="core" dest="build/core"/>
+  <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
+  <linkfile src="target" dest="build/target"/>
+  <linkfile src="tools" dest="build/tools"/>
+</project>
+  
+<project path="frameworks/base" name="android_frameworks_base" remote="clone-LOS" revision="lineage-18.1"/>
+<project path="package/apps/Settings" name="android_packages_apps_Settings" remote="clone-LOS" revision="lineage-18.1"/>
+<project path="packages/overlays/Lineage" name="android_packages_overlays_Lineage" remote="clone-LOS" revision="lineage-18.1"/>
+<project path="system/core" name="android_system_core" remote="clone-LOS" revision="lineage-18.1"/>
+<project path="vendor/lineage" name="android_vendor_lineage" remote="clone-LOS" revision="lineage-18.1"/>
+  
     <!-- Hardware -->
   <project path="hardware/xiaomi" 
            name="android_hardware_xiaomi" 
