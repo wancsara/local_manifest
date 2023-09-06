@@ -2,7 +2,7 @@
 <manifest>
   <remote name="we" fetch="https://github.com/Rsyd1997"/>
  <!-- <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />-->
-  <remote name="ArrowOS-Devices" fetch="https://github.com/ArrowOS-Devices"/>
+ <!-- <remote name="ArrowOS-Devices" fetch="https://github.com/ArrowOS-Devices"/>-->
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n"/>
 <!--  <remote name="clangazure" fetch="https://gitlab.com/Panchajanya1999" />-->
   <remote name="clone-LOS"  fetch="https://github.com/LineageOS"/>
@@ -54,15 +54,9 @@
 <project path="vendor/lineage" name="android_vendor_lineage" remote="clone-LOS" revision="lineage-18.1"/>
   
     <!-- Hardware -->
-  <project path="hardware/xiaomi" 
-           name="android_hardware_xiaomi" 
-           remote="ArrowOS-Devices" 
-           revision="arrow-11.0" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="clone-LOS" revision="lineage-18.1" />
   
 <!--Clang--> 
-  <project path="prebuilts/clang/host/linux-x86/proton-clang" 
-           name="proton-clang" 
-           remote="kdrag0n"
-           revision="master" />
+  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" />
   
 </manifest>
