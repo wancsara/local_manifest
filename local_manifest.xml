@@ -11,17 +11,17 @@
   <project path="device/xiaomi/beryllium"
            name="android_device_xiaomi_beryllium"
            remote="we"
-           revision="eleven" />
+           revision="lineage-18.1" />
            
   <project path="device/xiaomi/sdm845-common"
            name="android_device_xiaomi_sdm845-common"
            remote="we"
-           revision="eleven" />
+           revision="lineage-18.1" />
            
   <project path="vendor/xiaomi"
            name="android_vendor_xiaomi_beryllium"
            remote="we"
-           revision="eleven" />
+           revision="lineage-18.1" />
        
   <project path="kernel/xiaomi/sdm845"
            name="Kernel_sdm845"
