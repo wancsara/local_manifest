@@ -10,21 +10,25 @@
 <!--Trees-->
   <project path="device/xiaomi/beryllium"
            name="android_device_xiaomi_beryllium"
+           clone-depth="1"
            remote="we"
            revision="lineage-18.1" />
            
   <project path="device/xiaomi/sdm845-common"
            name="android_device_xiaomi_sdm845-common"
+           clone-depth="1"
            remote="we"
            revision="lineage-18.1" />
            
   <project path="vendor/xiaomi"
            name="android_vendor_xiaomi_beryllium"
+           clone-depth="1"
            remote="we"
            revision="lineage-18.1" />
        
   <project path="kernel/xiaomi/sdm845"
            name="Kernel_sdm845"
+           clone-depth="1"
            remote="we"
            revision="eleven" />
 
@@ -54,9 +58,9 @@
 <project path="vendor/lineage" name="android_vendor_lineage" remote="clone-LOS" revision="lineage-18.1"/>
   
     <!-- Hardware -->
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="clone-LOS" revision="lineage-18.1" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" clone-depth="1" remote="clone-LOS" revision="lineage-18.1" />
   
 <!--Clang--> 
-  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" />
+  <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" clone-depth="1" remote="kdrag0n" revision="master" />
   
 </manifest>
