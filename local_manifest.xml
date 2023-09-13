@@ -33,7 +33,7 @@
            revision="13" />
   
     <!-- Hardware -->
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" clone-depth="1" remote="clone-LOS" revision="lineage-20.0" />
+ <!-- <project path="hardware/xiaomi" name="android_hardware_xiaomi" clone-depth="1" remote="clone-LOS" revision="lineage-20.0" />-->
   
 <!--Clang--> 
   <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" clone-depth="1" remote="kdrag0n" revision="master" />
