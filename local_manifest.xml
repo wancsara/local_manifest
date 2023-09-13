@@ -12,7 +12,7 @@
            name="android_device_xiaomi_beryllium"
            clone-depth="1"
            remote="we"
-           revision="13" />
+           revision="13-test" />
            
   <!--<project path="device/xiaomi/sdm845-common"
            name="android_device_xiaomi_sdm845-common"
