@@ -20,7 +20,7 @@
            remote="we"
            revision="lineage-18.1" />-->
            
-  <project path="vendor/xiaomi"
+  <project path="vendor/xiaomi/beryllium"
            name="android_vendor_xiaomi_beryllium"
            clone-depth="1"
            remote="we"
