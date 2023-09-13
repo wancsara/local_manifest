@@ -31,6 +31,8 @@
            clone-depth="1"
            remote="we"
            revision="13" />
+
+  <remove-project name="android_hardware_xiaomi" />
   
     <!-- Hardware -->
  <!-- <project path="hardware/xiaomi" name="android_hardware_xiaomi" clone-depth="1" remote="clone-LOS" revision="lineage-20.0" />-->
