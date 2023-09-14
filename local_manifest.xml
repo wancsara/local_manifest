@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="we" fetch="https://github.com/Rsyd1997"/>
+  <remote name="we" fetch="https://github.com/Rsyd58"/>
  <!-- <remote name="trb" fetch="https://gitlab.com/varunhardgamer" />-->
  <!-- <remote name="ArrowOS-Devices" fetch="https://github.com/ArrowOS-Devices"/>-->
   <remote name="kdrag0n" fetch="https://github.com/kdrag0n"/>
